@@ -318,9 +318,9 @@ app.post('/v1/chat/completions', async (req, res) => {
     const {
       messages,
       model = DEFAULT_CONFIG.model,
-      temperature = 0.7,
-      max_tokens = 1024,
-      stream = false,
+      temperature = 0,
+      max_tokens = 10024,
+      stream = true,
       top_p = 1,
       frequency_penalty = 0,
       presence_penalty = 0
