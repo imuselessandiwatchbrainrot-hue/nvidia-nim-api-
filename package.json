@@ -1,0 +1,25 @@
+{
+  "name": "nvidia-nim-proxy",
+  "version": "1.0.0",
+  "description": "OpenAI-compatible NVIDIA NIM proxy for Janitor AI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "nvidia",
+    "nim",
+    "proxy",
+    "openai",
+    "janitor-ai"
+  ],
+  "author": "NulliME0NulliMW aka prudent elevator",
+  "license": "MIT"
+}
